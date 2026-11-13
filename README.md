@@ -90,7 +90,7 @@ Fluxo de um pedido:
 
 **Evolução para produção (nuvem):** trocar `MockMarketplaceConnector` por conectores com as APIs oficiais (OAuth2/REST),
 `Repositorio` por um banco gerenciado (PostgreSQL), receber pedidos via webhooks em uma API (Spring Boot/Ktor) hospedada na nuvem,
-usar uma fila (SQS/RabbitMQ) para o reprocessamento, um emissor de NF-e homologado, e um LLM (ex.: API do Claude) no `IAService`.
+usar uma fila (SQS/RabbitMQ) para o reprocessamento, um emissor de NF-e homologado, e um modelo de linguagem (LLM) no `IAService`.
 
 ## Roteiro sugerido para a apresentação (5 min)
 

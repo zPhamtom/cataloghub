@@ -13,7 +13,7 @@ import java.util.*;
  *  - precificação por canal considerando comissão, taxa fixa, imposto e margem alvo;
  *  - previsão de ruptura de estoque pela velocidade de vendas;
  *  - insights automáticos no dashboard.
- * Ponto de evolução: substituir os métodos por chamadas a um LLM (ex.: API do Claude) via HTTP.
+ * Ponto de evolução: substituir os métodos por chamadas a um modelo de linguagem (LLM) via API.
  */
 public final class IAService {
 

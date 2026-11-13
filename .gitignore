@@ -1,0 +1,17 @@
+# Compilação desktop
+build/
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+
+# Dados locais gerados pelo app
+dados/
+
+# Sistema
+.DS_Store
+Thumbs.db

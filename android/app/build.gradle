@@ -1,0 +1,33 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'br.com.cataloghub.android'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'br.com.cataloghub.android'
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    sourceSets {
+        // Reaproveita as mesmas regras de negócio da versão desktop (pasta core/)
+        main.java.srcDirs += '../../core/src'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug   // demo acadêmica: assina com a chave de debug para instalar direto
+        }
+    }
+}

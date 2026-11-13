@@ -46,6 +46,23 @@ Swing no desktop e Android nativo no celular (abas Painel, Catálogo, Canais, Pe
 | Retrabalho em títulos, preços e categorias | **Assistente de IA**: sugere categoria e NCM, gera descrição, cria título otimizado por canal (respeitando o limite de caracteres) e calcula o preço por canal considerando comissão, taxa fixa, imposto e margem alvo. |
 | Falta de visão do negócio | **Dashboard**: faturamento e comissões por canal, gráfico, previsão de ruptura de estoque e insights automáticos. |
 
+## O que cada aba faz (visão do usuário)
+
+O lojista trabalha em **um lugar só**: cadastra uma vez, o estoque se ajusta sozinho em todos os marketplaces e a nota fiscal sai automaticamente.
+
+| Aba | Pergunta que responde | Para que serve | Papel na solução |
+|---|---|---|---|
+| **Dashboard** (Painel) | "Como está minha loja hoje?" | Resumo de produtos, estoque, pedidos, faturamento e notas; vendas e comissões por marketplace; gráfico; alertas do assistente (o que vai acabar, preço ruim, produto fora de algum site). | Visão e controle do negócio inteiro em segundos. |
+| **Catálogo central** | "Meus produtos, cadastrados uma vez só" | Cadastrar e editar produtos; "Preencher com IA" completa categoria, código fiscal, descrição e preço ideal por site; ajustar estoque; importar planilha. | Acaba com o cadastro repetido: um cadastro alimenta todos os canais. |
+| **Canais & Anúncios** | "Meus produtos estão certos em cada site?" | Ligar/desligar cada marketplace; ver preço e estoque que o cliente vê em cada site; situação de cada anúncio (Sincronizado, Pendente, Erro, Pausado); tentar de novo o que falhou. | Todos os sites mostram a informação certa, mesmo quando um marketplace cai. |
+| **Pedidos** | "Todas as minhas vendas em uma fila só" | Vendas de todos os sites juntas; a cada venda o app confere o estoque, dá baixa, atualiza todos os sites e emite a nota; marcar enviado; cancelar (estoque volta). | Mostra tudo funcionando junto, sem ninguém digitar nada. |
+| **Notas fiscais** | "Minhas notas, sem trabalho manual" | Notas geradas automaticamente; DANFE (versão de papel) e XML (para o contador); compartilhar no celular. | Acaba com a emissão manual de notas. |
+| **Log** | "O que aconteceu e quando?" | Histórico com data e hora de cadastros, vendas, recusas, atualizações, notas e falhas. | Segurança e transparência. |
+
+**Como tudo se junta:** o Catálogo concentra os produtos, os Canais levam esses produtos para todos os marketplaces, os Pedidos trazem as vendas de volta para um lugar só, as Notas fiscais saem sozinhas, o Dashboard mostra o resultado e o Log guarda o histórico. Tudo para que o lojista venda em vários lugares com o esforço de vender em um só.
+
+A explicação completa, aba por aba, está no capítulo 2 do [Relatorio-CatalogHub.pdf](Relatorio-CatalogHub.pdf).
+
 ## Arquitetura
 
 ```
